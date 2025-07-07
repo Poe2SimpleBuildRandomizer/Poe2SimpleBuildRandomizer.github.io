@@ -180,6 +180,30 @@
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
 
+        .coffee-link {
+            margin-top: 15px;
+        }
+
+        .coffee-link a {
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 0.9em;
+            padding: 8px 16px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-style: normal;
+        }
+
+        .coffee-link a:hover {
+            color: #fff;
+            background: rgba(255, 215, 0, 0.2);
+            border-color: #ffd700;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.2);
+        }
+
         .toast {
             position: fixed;
             top: 20px;
@@ -248,8 +272,14 @@
         </div>
         <div class="footer">
             Click the button above to generate a random build idea for Path of Exile 2!<br>
+            <div class="coffee-link">
+                <a href="https://buymeacoffee.com/EnigmaMachineDev" target="_blank" rel="noopener noreferrer">
+                    ☕ Buy me a coffee
+                </a>
+            </div>
         </div>
     </div>
+    
 
     <div class="toast" id="toast">Build copied to clipboard!</div>
 
